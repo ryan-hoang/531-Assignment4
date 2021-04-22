@@ -4,6 +4,10 @@
 #include <stdio.h>
 #include <fcntl.h>
 
+//Ryan Hoang
+//A simple program that demonstrates the use of fork,execlp,waitpid,sigaction,
+//dup, and various wait macros.
+
 int cs531_system(char* command);
 
 
