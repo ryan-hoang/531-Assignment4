@@ -1,5 +1,5 @@
 My own implementation of the C Library Function: system(const char *command). \
-Uses: fork(), exec(), wait_pid(), and sigaction().\
+Uses: fork(), exec(), wait_pid(), and sigaction(). \
 
 Example usage: ./HW4 "ls"\
 This will tell the program to execute the ls shell command. To run a different command, simply replace what is in between the quotes with the desired shell command i.e. ./HW4 "mkdir"
